@@ -36,8 +36,8 @@ theme_tech <- function(theme="airbnb", tech_key = list(
                     , colour_title = "#5380E4"
                     , colour_text = "black"),
                   turo = list(
-                    family_title="Plantin Std"
-                    , family_text = "Basis Grotesque"
+                    family_title="PlantinStd-BoldCondensed"
+                    , family_text = "basis_grotesque_medium"
                     , colour_title = "#231f20"
                     , colour_text = "#231f20")
                     )) {
