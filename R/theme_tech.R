@@ -39,8 +39,7 @@ theme_tech <- function(theme="airbnb", tech_key = list(
                     family_title="Plantin Std"
                     , family_text = "Basis Grotesque"
                     , colour_title = "#231f20"
-                    , colour_text = "#231f20"),
-                  
+                    , colour_text = "#231f20")
                     )) {
 
   theme_classic() + 
