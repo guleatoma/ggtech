@@ -1,3 +1,10 @@
+#' Install the turo fonts
+#'
+#' @export import_turo_fonts
+#' @name import_turo_fonts
+#' @title Install the turo fonts
+#' @examples
+#' import_turo_fonts()
 
 
 import_turo_fonts<-function(){
