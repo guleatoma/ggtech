@@ -16,5 +16,7 @@ Imports:
     scales,
     tidyr,
     extrafont,
-    extrafontdb
+    extrafontdb,
+    sysfonts,
+    png
 RoxygenNote: 5.0.1
