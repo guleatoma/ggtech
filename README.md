@@ -7,13 +7,18 @@
 
 
 ```r
-devtools::install_github("ricardo-bion/ggtech", 
+devtools::install_github("guleatoma/ggtech", 
                           dependencies=TRUE)
 ```
 
 ### Use ggtech:
 
 Make sure to install the required fonts (instructions at the end of this file).
+For the Turo fonts, use the function : 
+
+```r
+import_turo_fonts()
+```
 
 
 ```r
