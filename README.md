@@ -14,6 +14,7 @@ devtools::install_github("guleatoma/ggtech",
 ### Use ggtech:
 
 Make sure to install the required fonts (instructions at the end of this file).
+
 For the Turo fonts, use the function : 
 
 ```r
