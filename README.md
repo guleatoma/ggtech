@@ -15,7 +15,7 @@ devtools::install_github("guleatoma/ggtech",
 
 Make sure to install the required fonts (instructions at the end of this file).
 
-For the *Turo* fonts, use the function : 
+For the **Turo** fonts, use the function : 
 
 ```r
 import_turo_fonts()
@@ -31,6 +31,17 @@ d <- qplot(carat, data = diamonds[diamonds$color %in%LETTERS[4:7], ], geom = "hi
 
 Tech themes and scales:
 
+```r
+gr <- ggplot(data = diamonds, aes(x = color, y = carat, fill = as.factor(color))) +
+  geom_boxplot() +
+  xlab('Color') +
+  ylab('carat') 
+
+gr + scale_fill_tech(theme="turo") +
+theme_tech("turo") + 
+labs(title="Turo theme")
+```
+![](README_files/figure-html/turo-exemple-1.png)
 
 ```r
 d + theme_tech(theme="airbnb") + 
