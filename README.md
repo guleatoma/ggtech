@@ -22,13 +22,6 @@ import_turo_fonts()
 ```
 
 
-```r
-library(ggtech)
-
-d <- qplot(carat, data = diamonds[diamonds$color %in%LETTERS[4:7], ], geom = "histogram", bins=30, fill = color)
-```
-
-
 Tech themes and scales:
 
 ```r
@@ -42,6 +35,20 @@ theme_tech("turo") +
 labs(title="Turo theme")
 ```
 ![](README_files/figure-html/turo-exemple-1.png)
+
+```r
+library(ggtech)
+
+d <- qplot(carat, data = diamonds[diamonds$color %in%LETTERS[4:7], ], geom = "histogram", bins=30, fill = color)
+```
+
+```r
+  d + theme_tech(theme="turo") + 
+    scale_fill_tech(theme="turo") + 
+    labs(title="Turo theme", 
+         subtitle="now with subtitles for ggplot2 >= 2.1.0")
+```
+![](README_files/figure-html/turo-exemple-2.png)
 
 ```r
 d + theme_tech(theme="airbnb") + 
