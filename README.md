@@ -25,6 +25,8 @@ import_turo_fonts()
 Tech themes and scales:
 
 ```r
+library(ggtech)
+
 gr <- ggplot(data = diamonds, aes(x = color, y = carat, fill = as.factor(color))) +
   geom_boxplot() +
   xlab('Color') +
