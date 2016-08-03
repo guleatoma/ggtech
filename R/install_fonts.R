@@ -8,7 +8,7 @@
 
 
 import_turo_fonts<-function(){
-  
+  require('sysfonts')
   font_names=c('basis_grotesque_bold.ttf',
                'basis_grotesque_medium.ttf',
                'FreightDispPro-Black.ttf',
