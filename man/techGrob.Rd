@@ -13,7 +13,9 @@ techGrob(x, y, size, theme, geom_key = list(airbnb =
   twitter =
   "https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300",
   google =
-  "http://logok.org/wp-content/uploads/2015/09/Google-logo-2015-G-icon.png"))
+  "http://logok.org/wp-content/uploads/2015/09/Google-logo-2015-G-icon.png",
+  turo =
+  "https://d1kal2uthwls49.cloudfront.net/resources/img/og-image__Hc800d192bbc42828dd5979a04eade650__.png"))
 }
 \description{
 Tech geom

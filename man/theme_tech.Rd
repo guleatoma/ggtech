@@ -13,7 +13,9 @@ theme_tech(theme = "airbnb", tech_key = list(airbnb = list(family_title =
   colour_text = "black"), etsy = list(family_title = ".", family_text = ".",
   colour_title = "#F14000", colour_text = "#535353"),      twitter =
   list(family_title = "PicoBlackAl", family_text = "[z] Arista Light",
-  colour_title = "#5380E4", colour_text = "black")))
+  colour_title = "#5380E4", colour_text = "black"), turo = list(family_title =
+  "PlantinStd-BoldCondensed", family_text = "Basis Grotesque Medium",
+  colour_title = "#231f20", colour_text = "#231f20")))
 }
 \description{
 tech theme
